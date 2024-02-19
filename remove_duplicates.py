@@ -56,6 +56,3 @@ def remove_duplicates_from_folder(folder_path: str, img_size: tuple, score_min: 
 
     logging.info(f'Duplicates removed: {len(filenames) - len(img_filtered_names)}\n')
     return img_filtered_names
-
-
-

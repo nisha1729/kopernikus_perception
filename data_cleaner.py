@@ -30,4 +30,3 @@ if __name__ == '__main__':
     clean_data_list = remove_duplicates_from_folder(args.path, IMG_RESIZE, SCORE_MIN, CNT_AREA_MIN)
 
     write_clean_data(clean_data_list, filtered_path)
-
