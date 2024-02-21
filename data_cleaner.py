@@ -17,7 +17,7 @@ def write_clean_data(clean_filenames: list, dest_path: str) -> None:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', default='/home/snowcrash/kopernikus_perception/dataset', help='Path to folder of images')
+    parser.add_argument('--path', default='dataset/', help='Path to folder of images')
     args = parser.parse_args()
 
     filtered_path = os.path.join(args.path, "filtered/")  # folder where clean data is stored
